@@ -1,4 +1,6 @@
-const axios = require('axios');
+'use strict';
+
+const axios = require('axios').default;
 
 async function extractSingleColor(imageURI) {
     const response = await axios.post('https://image-color-extractor-server-production.up.railway.app/api/getsinglecolor', {
