@@ -1,0 +1,31 @@
+{
+  "name": "image-color-extractor",
+  "version": "1.0.0",
+  "description": "image-color-extractor is an npm package to help extract colors from your image by passing the image url in different forms like hexadecimal, rgb, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinandanwadwa/image-color-extractor-npm-package.git"
+  },
+  "keywords": [
+    "Image",
+    "Extractor",
+    "using",
+    "image",
+    "link",
+    "color",
+    "extractor"
+  ],
+  "author": "Abhinandan Wadhwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinandanwadwa/image-color-extractor-npm-package/issues"
+  },
+  "homepage": "https://github.com/abhinandanwadwa/image-color-extractor-npm-package#readme",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
