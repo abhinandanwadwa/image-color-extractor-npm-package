@@ -1,6 +1,6 @@
 {
   "name": "image-color-extractor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "image-color-extractor is an npm package to help extract colors from your image by passing the image url in different forms like hexadecimal, rgb, etc",
   "main": "index.js",
   "scripts": {
