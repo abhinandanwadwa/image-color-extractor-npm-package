@@ -18,7 +18,9 @@ $ npm install image-color-extractor
   import extractSingleColor from 'image-color-extractor';
   
   function App(){
-    useEffect(() => {
+    const imageURI = "YOUR_IMAGE_URI";
+    
+    useEffect(() => {    
     extractSingleColor(imageURI)
       .then(color => console.log(color))
       .catch(error => console.error(error))
